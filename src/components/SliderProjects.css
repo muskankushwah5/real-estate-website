@@ -1,0 +1,43 @@
+/* SliderProjects.css */
+/* Add any custom styling for your section here */
+
+/* Customize the carousel slide appearance */
+.carousel .slide {
+    width: 50%;
+    height:30%;
+    position: relative;
+    transition: background-color 0.3s ease; /* Add a smooth transition effect for background color */
+  }
+  
+  /* Define the hover effect */
+  .carousel .slide:hover {
+    background: linear-gradient(to bottom, transparent 0%, rgba(255, 165, 0, 0.7) 100%);
+    transition: background 0.3s ease; /* Smoothly transition background on hover */
+  }
+  
+  /* Style project titles and descriptions */
+  .project-title {
+    font-size: 24px;
+    color: #333;
+    margin: 0;
+  }
+  
+  .project-description {
+    font-size: 16px;
+    color: #777;
+    margin: 10px 0;
+  }
+  
+  /* Style the "See project" link */
+  .link-arrow {
+    color: #f60;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 10px;
+    display: inline-block;
+  }
+  
+  .link-arrow:hover {
+    color: #f90;
+  }
+  
